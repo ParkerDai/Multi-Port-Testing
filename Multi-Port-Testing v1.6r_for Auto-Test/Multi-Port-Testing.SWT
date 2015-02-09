@@ -1,0 +1,61 @@
+[Setup Wizard Template]
+TemplateDate=2008/5/29 上午 09:57:14
+
+[選擇專案及設定選項]
+txtProjFile=D:\User\VB5\GW21W\LoopTest_3\Multi-Port-Testing.vbp
+chkProjRebuild=1
+optBldSetup=True
+chkIncludeDEP=1
+optInternet=False
+optDEPOnly=False
+
+[散發方式]
+optFloppyTarg=False
+optSingleDirTarg=True
+optMultDirTarg=False
+
+[單一目錄]
+cboFloppyDrives=0
+cboFloppyDriveSize=0
+txtDirTarget=D:\User\VB5\GW21W\LoopTest_3\Setup\
+
+[Internet 包裝]
+optRemoteSite=True
+optLocalSite=False
+txtLocalSite=
+
+[資料存取]
+chkUseJet=1
+chkUseODBC=0
+Isam0=
+
+[ActiveX 伺服程式元件]
+File1=
+
+[確認相關資訊]
+File1="C:\WINDOWS\system32\MSWINSCK.OCX",True,32764
+File2="C:\WINDOWS\system32\MSCOMM32.OCX",True,32764
+File3=
+
+[共用的 ActiveX 應用程式]
+optDeployApplication=True
+optDeployShared=False
+optRemoteServer1=True
+optRemoteServer0=False
+
+[安裝總覽]
+File1="C:\WINDOWS\system32\VB5CHT.dll",True,"$(WinSysPath)",,True
+File2="C:\WINDOWS\system32\MSVBVM50.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File3="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\StdOle2.tlb",True,"$(WinSysPathSysFile)",$(TLBRegister),False
+File4="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OleAut32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File5="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OlePro32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File6="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\AsycFilt.dll",True,"$(WinSysPathSysFile)",,False
+File7="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\Ctl3d32.dll",True,"$(WinSysPathSysFile)",,False
+File8="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\ComCat.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File9="C:\WINDOWS\system32\MSWINSCK.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File10="C:\WINDOWS\system32\WinSkCHT.dll",True,"$(WinSysPath)",,True
+File11="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\AXDist.exe",True,"$(WinSysPath)",,True
+File12="C:\WINDOWS\system32\MSCOMM32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File13="C:\WINDOWS\system32\MSComCHT.dll",True,"$(WinSysPath)",,True
+File14="D:\User\VB5\GW21W\LoopTest_3\Multi-Port-Testing.exe",True,"$(AppPath)",,False
+File15="D:\User\VB5\GW21W\LoopTest_3\Multi-Port-Testing.DEP",True,"$(AppPath)",,False

@@ -1,0 +1,191 @@
+[Version]
+Version=1.0.0.0
+
+[VB5CHT.DLL <0404>]
+Register=
+Dest=$(WinSysPath)
+Date=3/25/1997
+Time=0:00:00
+Version=5.0.37.24
+CABFilename=VB5CHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=VB5CHT.inf
+CABRunFile=
+Uses1=
+
+[MSVBVM50.DLL <0404>]
+Register=$(DLLSelfRegister)
+Dest=$(WinSysPathSysFile)
+Date=9/5/2001
+Time=20:00:00
+Version=5.2.82.44
+CABFilename=MSVBVM50.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=MSVBVM50.inf
+CABRunFile=
+Uses1=
+
+[STDOLE2.TLB <0404>]
+Register=$(TLBRegister)
+Dest=$(WinSysPathSysFile)
+Date=1/15/1997
+Time=0:00:00
+Version=2.20.4054.1
+CABFilename=
+CABDefaultURL=
+CABINFFile=
+CABRunFile=
+Uses1=OleAut32.dll
+Uses2=OlePro32.dll
+Uses3=AsycFilt.dll
+Uses4=
+
+[OLEAUT32.DLL <0404>]
+Register=$(DLLSelfRegister)
+Dest=$(WinSysPathSysFile)
+Date=1/15/1997
+Time=0:00:00
+Version=2.20.4054.1
+CABFilename=
+CABDefaultURL=
+CABINFFile=
+CABRunFile=
+Uses1=
+
+[OLEPRO32.DLL <0404>]
+Register=$(DLLSelfRegister)
+Dest=$(WinSysPathSysFile)
+Date=1/15/1997
+Time=0:00:00
+Version=5.0.4055.1
+CABFilename=
+CABDefaultURL=
+CABINFFile=
+CABRunFile=
+Uses1=
+
+[ASYCFILT.DLL <0404>]
+Register=
+Dest=$(WinSysPathSysFile)
+Date=1/15/1997
+Time=0:00:00
+Version=2.20.4056.1
+CABFilename=AsycFilt.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=AsycFilt.inf
+CABRunFile=
+Uses1=
+
+[CTL3D32.DLL <0404>]
+Register=
+Dest=$(WinSysPathSysFile)
+Date=8/21/1996
+Time=0:00:00
+Version=2.31.0.0
+CABFilename=
+CABDefaultURL=
+CABINFFile=
+CABRunFile=
+Uses1=
+
+[COMCAT.DLL <0404>]
+Register=$(DLLSelfRegister)
+Dest=$(WinSysPathSysFile)
+Date=10/31/1996
+Time=0:00:00
+Version=4.71.1441.1
+CABFilename=
+CABDefaultURL=
+CABINFFile=
+CABRunFile=
+Uses1=
+
+[MSWINSCK.OCX <0404>]
+Register=$(DLLSelfRegister)
+Dest=$(WinSysPath)
+Date=3/9/2004
+Time=0:00:00
+Version=6.1.97.82
+CABFilename=MSWinSck.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=MSWinSck.inf
+CABRunFile=
+Uses1=WinSkCHT.dll
+Uses2=AXDist.exe
+Uses3=ComCat.dll
+Uses4=
+
+[WINSKCHT.DLL <0404>]
+Register=
+Dest=$(WinSysPath)
+Date=7/6/1998
+Time=0:00:00
+Version=6.0.81.63
+CABFilename=WinSkCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=WinSkCHT.inf
+CABRunFile=
+Uses1=
+
+[AXDIST.EXE <0404>]
+Register=
+Dest=$(WinSysPath)
+Date=3/18/1997
+Time=0:00:00
+Version=4.71.30.1
+CABFilename=
+CABDefaultURL=
+CABINFFile=
+CABRunFile=
+Uses1=
+
+[MSCOMM32.OCX <0404>]
+Register=$(DLLSelfRegister)
+Dest=$(WinSysPath)
+Date=8/17/2005
+Time=17:22:00
+Version=6.0.81.69
+CABFilename=MSComm32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb6
+CABINFFile=MSComm32.inf
+CABRunFile=
+Uses1=MSComCHT.dll
+Uses2=ComCat.dll
+Uses3=
+
+[MSCOMCHT.DLL <0404>]
+Register=
+Dest=$(WinSysPath)
+Date=7/6/1998
+Time=0:00:00
+Version=6.0.81.63
+CABFilename=MSComCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb6
+CABINFFile=MSComCHT.inf
+CABRunFile=
+Uses1=
+
+[MULTI-PORT-TESTING.EXE <0404>]
+Register=
+Dest=$(AppPath)
+Date=6/12/2008
+Time=19:52:41
+Version=1.0.0.0
+CABFilename=；假如您希望將這個檔案壓至一個封裝檔(.cab) ，請在此處加入該檔的檔名。
+CABDefaultURL=；假如您指定了 CABFileName，則您可在這裡放置 URL 位址。Internet 的使用者可根據此資訊來下載您的封裝檔(.cab)。
+CABINFFile=；假如您指定了一個含有某 INF 檔的 CABFileName，則您應該在此處提供該 INF 檔的名稱。假如 Run= key 存在，則此設定將被忽略
+CABRunFile=；假如您指定了一個含有某執行檔的 CABFileName，則您應該在此處提供該執行檔的名稱。此設定的優先權會高於 InfFile= key
+Uses1=VB5CHT.dll
+Uses2=MSVBVM50.dll
+Uses3=StdOle2.tlb
+Uses4=OleAut32.dll
+Uses5=OlePro32.dll
+Uses6=AsycFilt.dll
+Uses7=Ctl3d32.dll
+Uses8=ComCat.dll
+Uses9=MSWINSCK.OCX
+Uses10=WinSkCHT.dll
+Uses11=AXDist.exe
+Uses12=MSCOMM32.OCX
+Uses13=MSComCHT.dll
+Uses14=

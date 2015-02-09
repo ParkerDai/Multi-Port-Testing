@@ -1,0 +1,22 @@
+
+Windows IP Configuration
+
+        Host Name . . . . . . . . . . . . : philip-d3061e57
+        Primary Dns Suffix  . . . . . . . : 
+        Node Type . . . . . . . . . . . . : Unknown
+        IP Routing Enabled. . . . . . . . : No
+        WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter °Ï°ì³s½u 3:
+
+        Connection-specific DNS Suffix  . : 
+        Description . . . . . . . . . . . : Intel(R) 82567LM Gigabit Network Connection
+        Physical Address. . . . . . . . . : 00-23-5A-8A-81-48
+        Dhcp Enabled. . . . . . . . . . . : No
+        IP Address. . . . . . . . . . . . : 192.168.1.78
+        Subnet Mask . . . . . . . . . . . : 255.255.255.0
+        IP Address. . . . . . . . . . . . : 10.0.160.88
+        Subnet Mask . . . . . . . . . . . : 255.255.0.0
+        Default Gateway . . . . . . . . . : 10.0.0.201
+        DNS Servers . . . . . . . . . . . : 168.95.1.1
+                                            168.95.192.1
